@@ -4,24 +4,32 @@
 
 body{
     font-family: 'Zen Antique Soft', serif;
-    margin-left: 30px;
+    margin:0px;
 }
 section{
     display: flex;
 }
 .half-width{
+    font-size: 20px;
     width: 50%;
+    padding: 20px;
 }
 .half-width img{
     width: 90%;
 }
 .half-width a{
+    color: white;
     text-decoration: none;
-    background-color: darksalmon;
+    background-image: linear-gradient(salmon, darkred);
+    font-weight: 700;
     padding: 10px;
     border-radius: 3px;
 }
 button{
    background-color:darksalmon;
    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
