@@ -6,7 +6,7 @@ body{
     font-family: 'Zen Antique Soft', serif;
     margin:0px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 70px;
 }
@@ -39,4 +39,31 @@ button{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiance-item{
+    width: 40%;
+    margin: 5%;
+    padding: 80px;
+    border-left: 5px solid rebeccapurple ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#baby-developer{
+border-left: 5px solid;
+border-image: linear-gradient(blue, tomato);
+border-image-slice: 1;
+}
+#full-developer{
+    border-left: 5px solid;
+border-image: linear-gradient(salmon, cyan);
+border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    background-color: rosybrown;
 }
